@@ -20,9 +20,9 @@
    alert('Numbers are not allowed');
   }
   else{
-  var lovdata = Math.random() * 100;
-  lovdata = Math.floor(lovdata);
-  document.getElementById('lovevalue').value = lovdata + "%"; 
+  var lovePercentage = Math.random() * 100;
+  lovePercentage = Math.floor(lovePercentage);
+  document.getElementById('lovevalue').value = lovePercentage + "%"; 
   }
   var message = "";
     if (lovePercentage >= 80) {
@@ -34,5 +34,4 @@
     }
     
     document.getElementById('message').innerText = message;
-  
  }

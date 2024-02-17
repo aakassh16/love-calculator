@@ -9,35 +9,34 @@
 </head>
 <body>
 
-<header >
- 
-<div class="card w-50 m-auto text-center ">
-  <div class="card-header bg-danger text-white">LOVE CALCULATOR</div>
-  <div class="card-body">
-   <form class="form-inline w-75 m-auto">
-    <div class="form-group">
-     <input type="text" name="" class="form-control text-center" placeholder="Your Name" id="name" >
-    </div>
-    <div class="pl-4 pr-4">
-     <span> ❤️ </span>
-    </div>
-    <div class="form-group">
-     <input type="text" name="" class="form-control text-center" placeholder=" Love Name" id="lname">
-    </div>
-   </form> <br>
-    <div class="w-70 m-auto">
-     <button  class="btn btn-success w-50" onclick="checkloveper()">Calculate Love %</button>
-    </div>
-    <br>
-    <div>
-     <input type="text" name="" placeholder="LOVE PERCENTAGE" class="form-control text-center w-25 m-auto" id="lovevalue" readonly>
-    </div>
-  </div> 
-  <div class="card-footer ">God Bless Your RelationShip</div>
-</div>
-
-</header>
+    <header>
+        <div class="container mt-5">
+          <div class="card mx-auto text-center">
+            <div class="card-header bg-danger text-white">LOVE CALCULATOR</div>
+            <div class="card-body">
+              <form class="form-inline justify-content-center mb-4">
+                <div class="form-group">
+                  <input type="text" name="" class="form-control text-center" placeholder="Your Name" id="name">
+                </div>
+                <div class="px-4">
+                  <span class="heart"> ❤️ </span>
+                </div>
+                <div class="form-group">
+                  <input type="text" name="" class="form-control text-center" placeholder="Love Name" id="lname">
+                </div>
+              </form>
+              <div class="mb-4">
+                <button class="btn btn-success" onclick="checkloveper()">Calculate Love %</button>
+              </div>
+              <div class="mb-3">
+                <input type="text" name="" placeholder="LOVE PERCENTAGE" class="form-control text-center mx-auto" style="width: 200px;" id="lovevalue" readonly>
+              </div>
+              <div id="message" class="mt-3"></div>
+            </div>
+            <div class="card-footer">God Bless Your Relationship</div>
+          </div>
+        </div>
+      </header>
 
 </body>
-
 </html>
